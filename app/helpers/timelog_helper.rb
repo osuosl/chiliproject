@@ -14,6 +14,7 @@
 
 module TimelogHelper
   include ApplicationHelper
+  include ERB::Util
 
   def render_timelog_breadcrumb
     links = []
